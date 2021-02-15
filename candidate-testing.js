@@ -3,7 +3,7 @@ const input = require('readline-sync');
 // TODO 2: modify your quiz app to ask 5 questions //
 // const input = require('readline-sync');
 // TODO 1.1a: Define candidateName // 
-let candidateName = "";
+let candidateName = "Jasmine";
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
