@@ -25,7 +25,8 @@ function askForName() {
   // TODO 1.1b: Ask for candidate's name //
   const input = require('readline-sync');
   candidateName = input.question("Candidate Name: ");
-  candidateName=candidateName.toString();
+  //  console.log("Hello "+candidateName);
+  // candidateName=candidateName.toString();
 }
 
 function askQuestion() {
@@ -70,7 +71,8 @@ function gradeQuiz(candidateAnswers) {
 function runProgram() {
   askForName();
   // TODO 1.1c: Ask for candidate's name //
-  
+  const input = require('readline-sync');
+  candidateName = input.question("Candidate Name: ");
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
