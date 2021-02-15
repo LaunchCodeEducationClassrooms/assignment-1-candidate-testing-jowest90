@@ -23,8 +23,8 @@ let candidateAnswers =[];
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
-  const input = require('readline-sync');
-  candidateName = input.question("Candidate Name: ");
+  // const input = require('readline-sync');
+  // candidateName = input.question("Candidate Name: ");
   //  console.log("Hello "+candidateName);
   // candidateName=candidateName.toString();
 }
