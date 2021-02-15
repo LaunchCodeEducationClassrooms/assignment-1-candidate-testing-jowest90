@@ -43,11 +43,11 @@ function gradeQuiz(candidateAnswers) {
 
   let grade=0;
   for(i=0; i<questions.length; i++){
-  if(correctAnswers[i].toString().toUpperCase()===candidateAnswers[i].toString().toUpperCase()){
-    console.log("CORRECT!");
+  if(correctAnswers[i].toUpperCase()===candidateAnswers[i].toUpperCase()){
+    // console.log("CORRECT!");
     grade+=1;
   }else{
-    console.log("WRONG!!");
+    // console.log("WRONG!!");
     grade+=0;
   }
   }
