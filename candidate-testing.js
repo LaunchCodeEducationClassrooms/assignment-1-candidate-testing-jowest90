@@ -71,6 +71,7 @@ function gradeQuiz(candidateAnswers) {
 function runProgram() {
   askForName();
   // TODO 1.1c: Ask for candidate's name //
+  candidateName.toString();
   console.log("Greetings "+candidateName);
   askQuestion();
   gradeQuiz(this.candidateAnswers);
